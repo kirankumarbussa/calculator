@@ -1,4 +1,5 @@
 # calculator
 
 This project creates java calculator functionality
-build is done from jenkins
+\n build is done from jenkins
+\n checking
