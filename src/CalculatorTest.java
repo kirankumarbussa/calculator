@@ -6,6 +6,6 @@ public class CalculatorTest {
 
   @Test
   public void testGetArea() {
-    assertEquals(myCalculator.addition(), 22);
+    assertEquals(myCalculator.addition(23,45), 68);
   }
 }
