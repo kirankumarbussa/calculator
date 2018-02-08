@@ -3,17 +3,17 @@ pipeline{
 	agent any
 	stages{
 	
-		stage('Testing'){
+		stage('Building'){
 			steps{
 
-				echo "Testing.."
+				echo "Building.."
 				sh 'ant -f test.xml -v'
 			}
 		}
 
-		stage('Build'){
+		stage('Testing'){
 			steps{
-				echo 'Building..'
+				echo 'Testing..'
 				sh 'ant -f build.xml -v'
 			}
 		}
